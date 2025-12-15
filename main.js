@@ -1,8 +1,7 @@
 const discordjs = require('discord.js');
 const fs = require('fs');
 const path = require('path');
-const token = "MTQwMDMyOTk4MzIzMDA4NzIyOA.G3vILi.Ww6n0iTDgiZSOwrrAuvsltDDySZRI6JGPDPePw"
-const clientId = "1400329983230087228";
+const token = "";
 const client = new discordjs.Client({
 	intents: [discordjs.GatewayIntentBits.GuildMessageReactions, discordjs.GatewayIntentBits.GuildMessages, discordjs.GatewayIntentBits.Guilds, discordjs.GatewayIntentBits.MessageContent],
 	partials: [discordjs.Partials.Message, discordjs.Partials.Channel, discordjs.Partials.Reaction]
